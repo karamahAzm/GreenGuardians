@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572981891236",
+    "project_id": "greenguardians-46d02",
+    "storage_bucket": "greenguardians-46d02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572981891236:android:5d0040f3c6a3aa9fff5631",
+        "android_client_info": {
+          "package_name": "com.example.greenguardians"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0eUA9y35jHMAJ1Yve_qTtAtvlmWhepd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

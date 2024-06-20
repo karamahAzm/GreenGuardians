@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/lightgreen">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/beige"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Admin Control Page"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="25sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img"
+                android:id="@+id/ImgLd"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/txtTitle"
+                android:background="@drawable/brdr"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Please Enter the title "/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/txtDesc"
+                android:background="@drawable/brdr"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Please Enter the Description" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Save Data"
+                android:id="@+id/SvBtn"
+                android:textSize="23sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                app:cornerRadius = "20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

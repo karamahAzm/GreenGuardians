@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context=".AdminLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Admin Login"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="30sp" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:hint="Enter your email"
+        android:id="@+id/adminloginEmail"
+        android:inputType="textEmailAddress"
+        android:padding="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/loginPasswordAdmin"/>
+
+    <EditText
+        android:id="@+id/loginPasswordAdmin"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/loginButtonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminloginEmail" />
+    <Button
+        android:id="@+id/loginButtonAdmin"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="LOGIN"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPasswordAdmin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

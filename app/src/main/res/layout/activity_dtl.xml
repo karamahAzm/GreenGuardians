@@ -1,0 +1,87 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightgreen"
+        android:orientation="vertical"
+        tools:context=".SupplierDetailsPage">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:text="Challenge Details"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="12dp"
+            android:text="Title"
+            android:textColor="@color/gray"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/brdr"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="12dp"
+            android:text="Description"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/fab_description"
+        android:padding="4dp"
+        app:backgroundTint="@color/blue"
+        android:src="@drawable/baseline_format_list_bulleted_24"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/delete19f19478"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="150dp"
+        android:padding="4dp"
+        android:contentDescription="@string/fab_option2_description"
+        android:visibility="gone"
+        android:src="@drawable/baseline_delete_24"
+        app:backgroundTint="@color/blue" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

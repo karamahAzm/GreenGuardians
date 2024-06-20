@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    android:orientation="vertical"
+    tools:context=".DeleteByAdminMagazine">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/beige"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Data"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/deleteTextMagazine"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="150dp"
+                android:background="@color/green"
+                android:gravity="start|center_vertical"
+                android:hint="Enter the title"
+                android:padding="16dp"
+                android:textColor="@color/gray" />
+
+            <Button
+                android:id="@+id/deleteThisMagazine"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Delete Button"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OmanGreenGuardiansApp</string>
+    <string name="SelectedChallenges"> .</string>
+    <string name="YourInfluence"> .</string>
+    <string name="ShopByCategory"> .</string>
+    <string name="fab_description">Main Action</string>
+    <string name="fab_option1_description">Option 1</string>
+    <string name="fab_option2_description">Option 2</string>
+    <string name="fab_option3_description">Option 3</string>
+</resources>
